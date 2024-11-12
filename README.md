@@ -37,15 +37,23 @@ A modern full-stack TypeScript template featuring React (Vite) frontend and Expr
 - npm or yarn
 
 ## Getting Started
-### 1. Clone the repository:
+### 1. Create a repository using this template:
+1) Navigate to the main page of this repository.
+2) Above the file list, click **Use this template**.
+3) Select **Create a new repository**.
+
+### 2. Clone your new repository:
 - _with HTTPS:_
 ```bash
-git clone https://github.com/ganznz/express-vite-monorepo.git
+git clone https://github.com/USERNAME/REPO-NAME.git
 ```
 - _or with SSH:_
 ```bash
-git@github.com:ganznz/express-vite-monorepo.git
+git@github.com:USERNAME/REPO-NAME.git
 ```
+Replace:
+- `USERNAME` with your GitHub username
+- `REPO-NAME` with your repository name
 
 ### 2. Update .env files:
 - Rename `.env.example` in `client` directory to `.env`.
