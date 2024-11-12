@@ -1,0 +1,6 @@
+{
+    "watch": ["server"],
+    "ignore": ["client"],
+    "ext": "ts, json",
+    "exec": "npx tsx server/index.ts"
+}
