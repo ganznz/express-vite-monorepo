@@ -1,6 +1,8 @@
 # Full-Stack TypeScript Template
-
 A modern full-stack TypeScript template featuring React (Vite) frontend and Express backend using a monorepo structure.
+
+- Author: Logan Bellingham (ganznz)
+- Connect with me [[LinkedIn](https://www.linkedin.com/in/logan-bellingham-1a366a230/)], [[X (Twitter)](https://x.com/onlyg_nz)]
 
 ## Features
 - **Frontend**
@@ -45,17 +47,13 @@ git clone https://github.com/ganznz/express-vite-monorepo.git
 git@github.com:ganznz/express-vite-monorepo.git
 ```
 
-### 2. Initialize local & remote repository:
-```bash
-mv old-directory-name NEW-REPO-NAME # rename your local directory to something fitting for your project
-cd NEW-REPO-NAME
-rm -rf .git
-git init
-gh repo create NEW-REPO-NAME --private --source=. --remote=origin --push # push to github
-```
+### 2. Update .env files:
+- Rename `.env.example` in `client` directory to `.env`.
+- Rename `.env.example` in `server` directory to `.env`.
 
 ### 3. Install dependencies:
 ```bash
+cd REPO-NAME
 npm install
 ```
 
@@ -69,3 +67,19 @@ npm run dev-server
 npm run dev-client
 ```
 The frontend will be available at `http://localhost:5173` and the backend at `http://localhost:8080`.
+
+## License
+
+MIT License
+
+Copyright (c) 2024 Logan Bellingham
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
